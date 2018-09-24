@@ -1,5 +1,5 @@
 {
-  "name": "react-native-elements",
+  "name": "@deboxsoft/react-native-elements",
   "version": "0.9.7",
   "description": "React Native Elements & UI Toolkit",
   "main": "src/index.js",
