@@ -3,6 +3,10 @@ id: card
 title: Card
 ---
 
+Cards are a great way to display information, usually containing content and
+actions about a single subject. Cards can contain images, buttons, text and
+more.
+
 ![Card Component](/react-native-elements/img/card.png)
 
 ```js
@@ -77,8 +81,6 @@ import { Card, ListItem, Button, Icon } from 'react-native-elements'
 * [`featuredSubtitleStyle`](#featuredsubtitlestyle)
 * [`featuredTitle`](#featuredtitle)
 * [`featuredTitleStyle`](#featuredtitlestyle)
-* [`flexDirection`](#flexdirection)
-* [`fontFamily`](#fontfamily)
 * [`image`](#image)
 * [`imageProps`](#imageprops)
 * [`imageStyle`](#imagestyle)
@@ -149,26 +151,6 @@ styling for featured title
 |      Type      | Default |
 | :------------: | :-----: |
 | object (style) |  none   |
-
----
-
-### `flexDirection`
-
-flex direction (row or column) (optional)
-
-|  Type  | Default |
-| :----: | :-----: |
-| string | column  |
-
----
-
-### `fontFamily`
-
-specify different font family
-
-|  Type  |                      Default                      |
-| :----: | :-----------------------------------------------: |
-| string | System font bold (iOS), Sans Serif Bold (android) |
 
 ---
 
