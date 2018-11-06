@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import { create } from 'react-test-renderer';
-import { Avatar } from 'react-native-elements';
+import { Avatar } from '../../index';
 
 import { ThemeProvider } from '../../config';
 
