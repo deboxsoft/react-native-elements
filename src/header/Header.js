@@ -127,11 +127,11 @@ const styles = {
     borderBottomWidth: StyleSheet.hairlineWidth,
     paddingHorizontal: 10,
     backgroundColor: theme.colors.primary,
-    paddingTop: getStatusBarHeight(),
+    paddingTop: getStatusBarHeight(true),
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    height: (Platform.OS === 'ios' ? 44 : 56) + getStatusBarHeight(),
+    height: (Platform.OS === 'ios' ? 44 : 56) + getStatusBarHeight(true),
   }),
   centerContainer: {
     flex: 3,
